@@ -2,6 +2,7 @@
 
 ## backend
 В файле `testWelbeX/backend/routes/main.js` поменять данные для подключения к postgres.
+
 Для запуска сервера:
 
 ```
@@ -23,10 +24,12 @@ npm start
 
 Структура таблицы:
 
-date - тип date
-title - тип varchar
-amount - тип int
-distance - тип int
+| название | тип |
+|----------|-----|
+| date | date |
+| title | varchar |
+| amount | int |
+| distance | int |
 
 Тестовые 100 записей для таблицы:
 
